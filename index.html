@@ -1,94 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satinder Portfolio</title>
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Hi This is testing site!!!
-    <p>Hello Satinder here</p>
-    <p>I work in Mokxa as a software developer and I am learning JS,git and Hosting from online lectures</p>
-    <p>I have worked on Baltimore record management, QR code training attendance and many more projects</p>
-    <p> I shoould make new projects and get fit this year</p> -->
-    <h1> Main Header</h1>
-    <p>We are learnings about headers</p>
-    <small>This is small tag</small>
-    <hr>
-    <h2> This is Container section</h2>
-
-    <h3>Fludic container</h3>
-    <div> is fludic container</div>
-
-    <h3> center container</h3>
-    <div> This is center container</div>
     
-    <hr>
-
-    <h2>Links</h2>
-    <a href="somelink">First Link</a>
-    <a href="seconflink">Second Link</a>
-
-    <hr>
-    <h2>Lists</h2>
-
-    <h3>UnOrdered List </h3>
-    <ul>First</ul>
-    <ul>Second</ul>
-    <ul>Third</ul>
-
-    <h3>Orderd List</h3>
-    <ol>Alexa</ol>
-    <ol>Rma</ol>
-    <ol>Coding</ol>
-
-    <hr>
-
-    <h2>Nav</h2>
-
-    <nav>
-        <div>Portfolio Links</div>
-        <ul>
-            <li>
-                <a href="home">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand" > Satinder's Portfolio</div>
+        <ul class="list-non-bullet nav-pill">
+            <li class="list-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="projects">Projects</a>
+            <li class="list-inline">
+                <a  class="link" href="projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/about">About</a>
+            <li class="list-inline">
+                <a class="link" href="/about.html">About</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-    <header>
-        <img src="images/programming.svg">
-        <h1> Heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/programming.svg">
+        <h1 class="hero-heading"> Satinder is learning <span class="heading-span">Web development</span> </h1>
     </header>
-    <hr>
-
-    <h2>Secitons</h2>
-    <section>
-        <h3>white section</h3>
-        <p> This is white section</p>
-
-        <h3> Gray section</h3>
-        <p> This the gray section</p>
+    <section class="section gray">
+        <div class="container container-center">
         
+        <h1> Known Techonolgies</h1>
+        <p> I am always open to learn more Techonolgies but i know java,html,js and etc</p>
+    </div>
     </section>
-<hr>
-<h2>Footers</h2>
-    <footer>
-        <div> Some heading inside footer</div>
-        <ul>
-            <li>FB</li>
-            <li>twitter</li>
+    <section class="section">
+        <div class="container container-center">
+        <h1>Projects</h1>
+        <p> This is white section with lots of projects. You can check by clicking on the link</p> 
+        <a  class="link link-primary"href="projects.html">Check Projects</a>
+        
+    </div>
+    </section>
+    <section class="section gray">
+        <div class="container container-center">
+        
+        <h1> Health and Fitness</h1>
+        <p> You will learn health and fitness with me </p>
+        <a class="link link-primary" href="healtandfitness.html">Check Health blogs</a>
+    </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-header">Social Media</div>
+        <ul class="list-non-bullet" >
+            <li class="list-inline">
+                <a class="link" href="github" >Github</a></li>
+                <li class="list-inline">
+                    <a class="link" href="linkedin">linkedin</a></li>
+            <li class="list-inline">
+                <a class="link" href="twitter">twitter</a></li>
         </ul>
     </footer>
 </body>
-
-
 </html>
