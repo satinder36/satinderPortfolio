@@ -83,6 +83,11 @@ hr{
     display:block;
     margin: auto;
 }
+.hero .hero-img-health{
+    max-width: 550px;
+    display:block;
+    margin: auto;
+}
 
 .hero .hero-heading{
     color:var(--heading-color);
